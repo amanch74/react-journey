@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is React app by AMAN CHOUDHARY",
   "scripts": {
+    "start": "parcel index.html",
     "test": "jest"
   },
   "repository": {
