@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+
 .app {
   display: block;
   margin: 0 auto;
@@ -94,4 +95,9 @@
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
 }
