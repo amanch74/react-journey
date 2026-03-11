@@ -26,14 +26,14 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.4885006&lng=77.2961612&page_type=DESKTOP_WEB_LISTING"
+      "https://corsproxy.io/?https://www.swiggy.com/mapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=28.4885006&lng=77.2961612&carousel=true&third_party_vendor=1"
     );
     // https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.4885006&lng=77.2961612&page_type=DESKTOP_WEB_LISTING
     // https://corsproxy.io/?https://www.swiggy.com/mapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=28.4885006&lng=77.2961612&carousel=true&third_party_vendor=1
 
     const json = await data.json();
 
-    // console.log(json?.data)
+    console.log(json?.data)
 
     
 
@@ -97,7 +97,7 @@ const Body = () => {
               (res) => res.info.avgRating > 4
             );
 
-            setFilteredRestaurant(filteredList);;
+            setFilteredRestaurant(filteredList);
             console.log(filteredList);
           }}
         >

@@ -26,13 +26,13 @@
   cursor: pointer;
 }
 
-.nav-items > ul {
+.nav-items>ul {
   font-size: 24px;
   display: flex;
   list-style-type: none;
 }
 
-.nav-items > ul > li {
+.nav-items>ul>li {
   cursor: pointer;
   padding: 10px;
   margin: 10px;
@@ -102,7 +102,7 @@
   cursor: pointer;
 }
 
-.shimmer-container{
+.shimmer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -123,4 +123,16 @@
 .login-btn {
   padding: 0 15px;
   cursor: pointer;
+}
+
+.user-card {
+  padding: 10px;
+  border: 1px solid black;
+  width: 300px;
+  
+}
+
+.avata{
+  height: 50px;
+  width: 50px;
 }
